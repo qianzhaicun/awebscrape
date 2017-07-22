@@ -1,0 +1,5 @@
+import re
+link = '/places/default/view/Antigua-and-Barbuda-10'
+link_regex = '/(places/default/(index|view))'
+if re.match(link_regex, link):
+    print(1)
